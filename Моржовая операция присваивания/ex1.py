@@ -1,0 +1,5 @@
+s = 0
+while (a := int(input())) != 0:
+    if a % 2 == 0:
+        s += a
+print(s)
