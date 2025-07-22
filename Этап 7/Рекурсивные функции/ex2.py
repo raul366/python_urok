@@ -10,5 +10,3 @@ def fib_rec(N, f = [1, 1]):
         return f
     else:
         return f
-
-print(*fib_rec(7))
