@@ -16,4 +16,4 @@ def obied(a,b):
 
 
 d = obied(a, b)
-print(*sorted(d.items()),  sep = ', ')
+print(*sorted(d.items()))
