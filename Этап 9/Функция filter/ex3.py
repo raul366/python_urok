@@ -1,0 +1,5 @@
+a = list(map(int, input().split()))
+b = list(map(int, input().split()))
+c = list(set(a) & set(b))
+c = list(filter(lambda x: x % 2 == 0, c))
+print(*sorted(c))
